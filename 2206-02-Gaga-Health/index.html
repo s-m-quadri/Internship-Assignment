@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+</head>
+
+<body>
+    <div id="page">
+        <br>
+        Name:
+        <input type="text" id="in-name" />
+        <br>
+        Age:
+        <input type="number" id="in-age" />
+        <br>
+        Gender:
+        <input type="text" id="in-gender" />
+        <br>
+        Medical Note:
+        <textarea id="in-note" cols="30" rows="10"></textarea>
+        <!-- <input type="text" id="in-note" /> -->
+        <br>
+        Medical Note:
+        <textarea id="in-med" cols="30" rows="10"></textarea>
+        <!-- <input type="text" id="in-med" /> -->
+        <button onclick="build_form()">Submit</button>
+    </div>
+    <div class="hidden" id="guiform">
+        <div class="form">
+            <center>
+                <br><br>
+                <h1>Giga Health Hospital</h1>
+                <br>
+                <h2>Dr. XYZ </h2>
+                <h3>M.B.B.S and Qualifications</h3>
+                <hr>
+                <br>
+            </center>
+            Date <span id="date"></span>
+            <br><br>
+            Patient Name : <span id="name"></span>
+            <br><br>
+            Age: <span id="age"></span>
+            <br><br>
+            Gender : <span id="gender"></span>
+            <br><br>
+            <br>
+
+            <h2>Rx</h2>
+            <div class="note">
+            <span id="note"></span>
+            <br><br>
+            <span id="med"></span>
+            <br><br>
+        </div>
+            <hr>
+            <center>
+                <h2>Giga Health Hospital</h2>
+            </center>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
