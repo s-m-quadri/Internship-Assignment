@@ -1,0 +1,31 @@
+* {
+    font-family: "Comfortaa";
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    visibility: hidden;
+}
+body{
+    padding: 10%;
+}
+h1{
+    color: #0af;
+}
+
+hr{
+    color: #0af;
+    border-color: #0af;
+}
+
+.form{
+    border: thick solid #0af;
+    padding: 10%;
+}
+.note{
+    padding-left: 10%;
+}
+
+input {
+    padding: .5%;
+}
